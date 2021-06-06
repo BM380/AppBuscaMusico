@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            app:srcCompat="@drawable/logo01" />
+
+        <TextView
+            android:id="@+id/edttitle"
+            android:text="Bem vindo ao Busca Musico"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+
+
+        <EditText
+            android:id="@+id/edt_nome"
+            android:text=""
+            android:hint="Insira seu nome"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <EditText
+            android:id="@+id/edt_cpf"
+            android:text=""
+            android:hint="Insira seu CPF"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <EditText
+            android:id="@+id/edt_nascimentp"
+            android:text=""
+            android:hint="Insira sua data de nascimento"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <EditText
+            android:id="@+id/edt_endereco"
+            android:text=""
+            android:hint="Insira seu Endereço"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <EditText
+            android:id="@+id/edt_telefone"
+            android:text=""
+            android:hint="Insira seu Telefone"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+
+
+        <EditText
+            android:id="@+id/edt_rg"
+            android:text=""
+            android:hint="Insira seu RG"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <EditText
+            android:id="@+id/edt_email"
+            android:text=""
+            android:hint="Insira seu email"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <EditText
+            android:id="@+id/edt_usuario"
+            android:text=""
+            android:hint="Insira seu Usuario"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <EditText
+            android:id="@+id/edt_senha"
+            android:text=""
+            android:hint="Insira sua senha"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <EditText
+            android:id="@+id/edt_genero"
+            android:text=""
+            android:hint="Insira seu Genero musical"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <EditText
+            android:id="@+id/edt_instrumento"
+            android:text=""
+            android:hint="Insira o Instrumento que vc toca"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"/>
+        <Button
+            android:id="@+id/btn_Insert"
+            android:textSize="24dp"
+            android:text="INSERIR MUSICO"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"/>
+        <Button
+            android:id="@+id/btn_Update"
+            android:textSize="24dp"
+            android:text="Update atualizar Musico"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/btn_Delete"
+            android:textSize="24dp"
+            android:text="Delete musico Excluir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"/>
+        <Button
+            android:id="@+id/btn_View"
+            android:textSize="24dp"
+            android:text="View ver musicos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/txtsuport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"
+            android:text="Ajuda e Suport em buscamusico.fabiogomes@gmail.com"
+            android:textColor="#131111"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/stat_sys_headset"
+            app:tint="#292020" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
